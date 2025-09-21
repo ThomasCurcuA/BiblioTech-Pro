@@ -3,12 +3,14 @@
 <!-- HEADER STYLE: CLASSIC -->
 <div align="center">
 
+<img src="BiblioTech-Pro.png" width="30%" style="position: relative; top: 0; right: 0;" alt="Project Logo"/>
 
 # BIBLIOTECH-PRO
 
-<em>Empowering Libraries with Seamless Management and Innovation</em>
+<em>Empowering Libraries to Innovate and Inspire</em>
 
 <!-- BADGES -->
+<img src="https://img.shields.io/github/license/ThomasCurcuA/BiblioTech-Pro?style=flat&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
 <img src="https://img.shields.io/github/last-commit/ThomasCurcuA/BiblioTech-Pro?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
 <img src="https://img.shields.io/github/languages/top/ThomasCurcuA/BiblioTech-Pro?style=flat&color=0080ff" alt="repo-top-language">
 <img src="https://img.shields.io/github/languages/count/ThomasCurcuA/BiblioTech-Pro?style=flat&color=0080ff" alt="repo-language-count">
@@ -34,44 +36,86 @@
 
 ---
 
-## Table of Contents
+## 📄 Table of Contents
 
-- [Overview](#overview)
-- [Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [Testing](#testing)
+- [Overview](#-overview)
+- [Getting Started](#-getting-started)
+    - [Prerequisites](#-prerequisites)
+    - [Installation](#-installation)
+    - [Usage](#-usage)
+    - [Testing](#-testing)
+- [Features](#-features)
+- [Project Structure](#-project-structure)
+- [Roadmap](#-roadmap)
+- [License](#-license)
 
 ---
 
-## Overview
+## ✨ Overview
 
-BiblioTech-Pro is a modern, scalable library management system built with React, TypeScript, and Vite, designed to streamline library operations and improve user engagement. It features a rich set of UI components, centralized data handling, and robust workflows for managing books, users, loans, and notifications.
+BiblioTech-Pro is an open-source library management system built with React, TypeScript, and Tailwind CSS, designed to streamline library operations and enhance user engagement. It integrates core functionalities like book cataloging, user management, loans, and notifications into a scalable, high-performance platform.
 
 **Why BiblioTech-Pro?**
 
-This project aims to deliver a high-performance, maintainable platform for library administration. The core features include:
+This project aims to provide developers with a flexible, maintainable, and feature-rich solution for library administration. The core features include:
 
-- 🎨 **🧩 Custom UI Components:** Reusable, accessible elements built with Radix UI for a cohesive user experience.
-- ⚡ **🚀 Fast Development & Builds:** Configured with Vite for rapid development cycles and optimized production output.
-- 📝 **🔧 Type Safety & Configuration:** TypeScript and tailored configs ensure code quality and seamless integration.
-- 📊 **📈 Data & Analytics:** Interactive dashboards and real-time notifications for informed decision-making.
-- 💾 **🛡️ Data Persistence & Backup:** Built-in mechanisms for data storage, export, import, and automatic backups.
-- 🔄 **🌐 Modular Architecture:** Organized for scalability, maintainability, and easy feature expansion.
+- 🧩 **🔧 Modular UI Components:** Reusable elements like buttons, dialogs, and cards for a consistent user interface.
+- 🚀 **⚙️ Seamless Configuration:** Vite, Tailwind, and TypeScript setups for fast development and optimized builds.
+- 🔒 **🛡️ Data Integrity & Backup:** Automatic backups and validation to safeguard your data.
+- 📊 **📈 Rich Dashboards:** Visual insights into library metrics and activity.
+- 🔔 **🎯 User Notifications:** Real-time alerts and system feedback to improve user engagement.
 
 ---
 
-## Getting Started
+## 📌 Features
 
-### Prerequisites
+|      | Component            | Details                                                                                     |
+| :--- | :------------------- | :------------------------------------------------------------------------------------------ |
+| ⚙️  | **Architecture**      | <ul><li>Modular monorepo structure with clear separation of concerns</li><li>Uses React with TypeScript for UI</li><li>Vite as build tool for fast development</li></ul> |
+| 🔩 | **Code Quality**      | <ul><li>TypeScript strict typing enforced</li><li>ESLint configured with React and TypeScript plugins</li><li>Prettier for code formatting</li></ul> |
+| 📄 | **Documentation**     | <ul><li>README.md provides project overview and setup instructions</li><li>Inline JSDoc comments for components and functions</li><li>Changelog and license files included</li></ul> |
+| 🔌 | **Integrations**      | <ul><li>React Router DOM for client-side routing</li><li>Radix UI components for accessible UI primitives</li><li>Recharts for data visualization</li><li>Zod for schema validation</li><li>React Hook Form for form management</li></ul> |
+| 🧩 | **Modularity**        | <ul><li>Component-based architecture with reusable React components</li><li>Custom hooks for state and logic encapsulation</li><li>Shared utility functions and types</li></ul> |
+| 🧪 | **Testing**           | <ul><li>Unit tests with Jest and React Testing Library</li><li>Test coverage reports integrated into CI</li></ul> |
+| ⚡️  | **Performance**       | <ul><li>Vite optimizations for fast hot module replacement</li><li>Code splitting via dynamic imports</li><li>Tailwind CSS for minimal runtime styling</li></ul> |
+| 🛡️ | **Security**          | <ul><li>Input validation with Zod schemas</li><li>Secure React hooks and context usage</li><li>Dependency audit via npm audit</li></ul> |
+| 📦 | **Dependencies**      | <ul><li>Core: React, TypeScript, Tailwind CSS, Vite</li><li>UI: Radix UI, Lucide-react, Framer Motion</li><li>Utilities: React Hook Form, Zod, Recharts</li></ul> |
+
+---
+
+## 📁 Project Structure
+
+```sh
+└── BiblioTech-Pro/
+    ├── BiblioTech Pro
+    │   ├── .gitignore
+    │   ├── LICENSE
+    │   ├── README.md
+    │   ├── eslint.config.js
+    │   ├── index.html
+    │   ├── package.json
+    │   ├── postcss.config.js
+    │   ├── public
+    │   ├── src
+    │   ├── tailwind.config.ts
+    │   ├── tsconfig.json
+    │   ├── tsconfig.node.json
+    │   └── vite.config.ts
+    └── README.md
+```
+
+---
+
+## 🚀 Getting Started
+
+### 📋 Prerequisites
 
 This project requires the following dependencies:
 
 - **Programming Language:** TypeScript
 - **Package Manager:** Npm
 
-### Installation
+### ⚙️ Installation
 
 Build BiblioTech-Pro from the source and install dependencies:
 
@@ -95,7 +139,7 @@ Build BiblioTech-Pro from the source and install dependencies:
 ❯ npm install
 ```
 
-### Usage
+### 💻 Usage
 
 Run the project with:
 
@@ -105,7 +149,7 @@ Run the project with:
 npm start
 ```
 
-### Testing
+### 🧪 Testing
 
 Bibliotech-pro uses the {__test_framework__} test framework. Run the test suite with:
 
@@ -114,6 +158,20 @@ Bibliotech-pro uses the {__test_framework__} test framework. Run the test suite 
 ```sh
 npm test
 ```
+
+---
+
+## 📈 Roadmap
+
+- [X] **`Task 1`**: <strike>Implement feature one.</strike>
+- [ ] **`Task 2`**: Implement feature two.
+- [ ] **`Task 3`**: Implement feature three.
+
+---
+
+## 📜 License
+
+Bibliotech-pro is protected under the [LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
 
 ---
 
