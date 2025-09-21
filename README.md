@@ -3,8 +3,6 @@
 <!-- HEADER STYLE: CLASSIC -->
 <div align="center">
 
-<img src="BiblioTech-Pro.png" width="30%" style="position: relative; top: 0; right: 0;" alt="Project Logo"/>
-
 # BIBLIOTECH-PRO
 
 <em>Empowering Libraries to Innovate and Inspire</em>
